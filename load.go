@@ -184,6 +184,12 @@ func LoadFile(filename string, enc Encoding) (*Properties, error) {
 	return l.LoadAll([]string{filename})
 }
 
+// LoadBytes loads bytes.
+func LoadBytes(buf []byte, enc Encoding) (*Properties, error) {
+	l := &Loader{Encoding: enc}
+	return l.loadBytes(buf, enc)
+}
+
 // LoadFiles reads multiple files in the given order into
 // a Properties struct. If 'ignoreMissing' is true then
 // non-existent files will not be reported as error.
