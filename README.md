@@ -1,8 +1,8 @@
-[![](https://img.shields.io/github/tag/magiconair/properties.svg?style=flat-square&label=release)](https://github.com/magiconair/properties/releases)
-[![Travis CI Status](https://img.shields.io/travis/magiconair/properties.svg?branch=master&style=flat-square&label=travis)](https://travis-ci.org/magiconair/properties)
-[![CircleCI Status](https://img.shields.io/circleci/project/github/magiconair/properties.svg?label=circle+ci&style=flat-square)](https://circleci.com/gh/magiconair/properties)
-[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg?style=flat-square)](https://raw.githubusercontent.com/magiconair/properties/master/LICENSE)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](http://godoc.org/github.com/magiconair/properties)
+[![](https://img.shields.io/github/tag/jomix/properties.svg?style=flat-square&label=release)](https://github.com/jomix/properties/releases)
+[![Travis CI Status](https://img.shields.io/travis/jomix/properties.svg?branch=master&style=flat-square&label=travis)](https://travis-ci.org/jomix/properties)
+[![CircleCI Status](https://img.shields.io/circleci/project/github/jomix/properties.svg?label=circle+ci&style=flat-square)](https://circleci.com/gh/jomix/properties)
+[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg?style=flat-square)](https://raw.githubusercontent.com/jomix/properties/master/LICENSE)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](http://godoc.org/github.com/jomix/properties)
 
 # Overview
 
@@ -30,14 +30,14 @@ changed from `panic` to `log.Fatal` but this is configurable and custom
 error handling functions can be provided. See the package documentation for
 details.
 
-Read the full documentation on [![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](http://godoc.org/github.com/magiconair/properties)
+Read the full documentation on [![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](http://godoc.org/github.com/jomix/properties)
 
 ## Getting Started
 
 ```go
 import (
 	"flag"
-	"github.com/magiconair/properties"
+	"github.com/jomix/properties"
 )
 
 func main() {
@@ -90,12 +90,12 @@ func main() {
 ## Installation and Upgrade
 
 ```
-$ go get -u github.com/magiconair/properties
+$ go get -u github.com/jomix/properties
 ```
 
 ## License
 
-2 clause BSD license. See [LICENSE](https://github.com/magiconair/properties/blob/master/LICENSE) file for details.
+2 clause BSD license. See [LICENSE](https://github.com/jomix/properties/blob/master/LICENSE) file for details.
 
 ## ToDo
 

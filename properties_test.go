@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/magiconair/properties/assert"
+	"github.com/jomix/properties/assert"
 )
 
 var verbose = flag.Bool("verbose", false, "Verbose output")
